@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.bonitasoft.web</groupId>
+    <artifactId>bonita-spnego</artifactId>
+    <version>1.0.0</version>
+    <name>Bonita SPNEGO filter</name>
+    <packaging>jar</packaging>
+
+    <properties>
+        <spnego.version>r9</spnego.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Kerberos -->
+        <dependency>
+            <groupId>net.sourceforge.spnego</groupId>
+            <artifactId>spnego</artifactId>
+            <version>${spnego.version}</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/net/sourceforge/spnego/spnego/${spnego.version}/spnego-${spnego.version}.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,14 @@
+# eclipse settings
+*.project
+*.settings
+*.classpath
+
+# intellij settings
+*.iml
+.idea/
+
+# target
+target/
+
+# merge files
+*.orig
