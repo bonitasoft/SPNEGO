@@ -52,9 +52,8 @@ import net.sourceforge.spnego.UserAccessControl;
 
 /**
  * This web application filter is an fork of net.sourceforge.spnego.SpnegoHttpFilter in
- * order load the configuration from a properties file depending on the request content
- * Some methods are duplicated from https://sourceforge.net/p/spnego/code/HEAD/tree/trunk/src/java/net/sourceforge/spnego/SpnegoHttpFilter.java
- * due to the final nature of this class we cannot extend it.
+ * order load the configuration from a properties file depending on the request content.
+ * Due to the final nature of this class we cannot extend it.
  * 
  * @author Anthony Birembaut
  */
