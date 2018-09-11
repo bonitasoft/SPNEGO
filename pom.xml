@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bonitasoft.web</groupId>
     <artifactId>bonita-spnego</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>Bonita SPNEGO filter</name>
     <packaging>jar</packaging>
 
@@ -17,8 +17,6 @@
             <version>3.0.1</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- Kerberos -->
         <dependency>
             <groupId>net.sourceforge.spnego</groupId>
             <artifactId>spnego</artifactId>
