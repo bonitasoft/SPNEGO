@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bonitasoft.web</groupId>
     <artifactId>bonita-spnego</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>Bonita SPNEGO filter</name>
     <packaging>jar</packaging>
 
@@ -92,6 +92,6 @@
         <developerConnection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/bonitasoft/SPNEGO.git</developerConnection>
         <connection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/bonitasoft/SPNEGO.git</connection>
         <url>https://github.com/bonitasoft/SPNEGO</url>
-        <tag>1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
