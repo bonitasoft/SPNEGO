@@ -6,10 +6,8 @@ timestamps {
             }
 
             stage('Build') {
-                try {
-                    sh './mvnw clean verify'
-                    archiveArtifacts '**/target/bonita-spnego-*.jar'
-                }
+                sh './mvnw clean verify'
+                archiveArtifacts '**/target/bonita-spnego-*.jar'
             }
         }
     }
